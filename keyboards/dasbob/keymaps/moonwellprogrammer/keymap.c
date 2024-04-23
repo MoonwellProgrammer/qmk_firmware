@@ -62,14 +62,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
         KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN,
         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,
-              RALT_T(KC_BSPC), KC_LSFT, LA_NAV,  LA_SYM,  RSFT_T(KC_SPC),  RCTL_T(KC_ENT) 
+              RALT_T(KC_BSPC), KC_LSFT, LA_NAV,  LA_SYM,  RSFT_T(KC_SPC),  KC_RCTL 
               // The thumb keys are using 'mod tap' shorthand to make things more compact in the keymap
               // ex: RCTL_T(KC_ENT) is equivalent to MT(MOD_RCTL, KC_ENT)    
     ),
 
     [_SYM] = LAYOUT_split_3x5_3(
         KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,                                           
-        KC_TILD, KC_GRV,  KC_QUOT, KC_DQUO, KC_MINS, KC_PLUS, OS_SHFT, OS_CTRL, OS_ALT,  OS_GUI,
+        KC_TILD, KC_GRV,  KC_QUOT, KC_DQUO, KC_MINS, KC_PLUS, OS_SHFT, OS_CTRL, OS_ALT,  KC_ENT,
         KC_BSLS, KC_PIPE, LA_MED,  XXXXXXX, KC_UNDS, KC_EQL,  KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC,
                           _______, _______, _______, _______, _______, _______
     ),

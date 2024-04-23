@@ -51,7 +51,7 @@
 #undef TAPPING_TERM
 #define TAPPING_TERM 240
 
-#undef RETRO_TAPPING
+//#undef RETRO_TAPPING
 //#define RETRO_TAPPING
 
 #undef PERMISSIVE_HOLD
