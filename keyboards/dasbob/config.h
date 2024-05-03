@@ -22,8 +22,7 @@
     { GP8, GP9, GP16, NO_PIN, NO_PIN } \
 }
 
-/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 5 // Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 
 /* Serial Config */
 #define USE_SERIAL
@@ -44,15 +43,10 @@
 
 #define STARTUP_SOUND E__NOTE(_E6), E__NOTE(_A6), ED_NOTE(_E7),
 
-
-// From Ben Vallack's Custom Config -----------------------------------------------------------
-
+// From Ben Vallack's Config --------------------
 
 #undef TAPPING_TERM
-#define TAPPING_TERM 240
-
-//#undef RETRO_TAPPING
-//#define RETRO_TAPPING
+#define TAPPING_TERM 200
 
 #undef PERMISSIVE_HOLD
 #define PERMISSIVE_HOLD

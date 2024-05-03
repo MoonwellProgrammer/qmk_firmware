@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
         KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN,
         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,
-              RALT_T(KC_BSPC), KC_LSFT, LA_NAV,  LA_SYM,  RSFT_T(KC_SPC),  KC_RCTL 
+                      KC_BSPC, KC_LSFT, LA_NAV,  LA_SYM,  RSFT_T(KC_SPC), KC_RCTL 
               // The thumb keys are using 'mod tap' shorthand to make things more compact in the keymap
               // ex: RCTL_T(KC_ENT) is equivalent to MT(MOD_RCTL, KC_ENT)    
     ),
@@ -91,7 +91,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_MED] = LAYOUT_split_3x5_3(
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         BRI_DN,  BRI_UP,  VOL_DN,  VOL_UP,  MUTE,    PREV,    PLAY,    STOP,    NEXT,    XXXXXXX,
-        XXXXXXX, XXXXXXX, KC_SLEP, KC_WAKE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
 	                      _______, _______, LA_DEF, LA_DEF, _______, _______
     ),
 
