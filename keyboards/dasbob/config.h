@@ -43,13 +43,13 @@
 
 #define STARTUP_SOUND E__NOTE(_E6), E__NOTE(_A6), ED_NOTE(_E7),
 
-// From Ben Vallack's Config --------------------
+// From Ben Vallack's Config -----------------------------------------------------------------
 
 #undef TAPPING_TERM
 #define TAPPING_TERM 200
 
-#undef HOLD_ON_OTHER_KEY_PRESS
-#define HOLD_ON_OTHER_KEY_PRESS
+//#undef HOLD_ON_OTHER_KEY_PRESS // #undef PERMISSIVE_HOLD
+//#define HOLD_ON_OTHER_KEY_PRESS // #define PERMISSIVE_HOLD
 
 #undef MOUSEKEY_DELAY
 #define MOUSEKEY_DELAY 5
