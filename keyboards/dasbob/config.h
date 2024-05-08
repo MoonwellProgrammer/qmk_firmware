@@ -46,7 +46,7 @@
 // From Ben Vallack's Config -----------------------------------------------------------------
 
 #undef TAPPING_TERM
-#define TAPPING_TERM 200
+#define TAPPING_TERM 160
 
 #undef TAPPING_TERM_PER_KEY
 #define TAPPING_TERM_PER_KEY
